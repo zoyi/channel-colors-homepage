@@ -1,0 +1,95 @@
+:global {
+  #root {
+    height: 100vh;
+  }
+
+  html, body {
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-size: 14px;
+    line-height: 1.42857;
+    -webkit-print-color-adjust: exact;
+
+    &:lang(ko) {
+      font-family: (
+              'Avenir',
+              'Avenir Next',
+              'Apple SD Gothic Neo',
+              'Nanum Barun Gothic',
+              'Helvetica',
+              'Arial',
+              'Malgun Gothic',
+              '맑은고딕',
+              '맑은 고딕',
+              '돋움',
+              'Dotum',
+              'Noto Sans Japanese',
+              'Hiragino Kaku Gothic ProN',
+              'ヒラギノ角ゴ ProN W3',
+              'YuGothic',
+              'Yu Gothic',
+              'メイリオ',
+              sans-serif,
+      );
+    }
+
+    &:lang(ja) {
+      font-family: (
+              'Avenir',
+              'Avenir Next',
+              'Noto Sans Japanese',
+              'Hiragino Kaku Gothic ProN',
+              'ヒラギノ角ゴ ProN W3',
+              'YuGothic',
+              'Yu Gothic',
+              'メイリオ',
+              'Apple SD Gothic Neo',
+              'Nanum Barun Gothic',
+              'Helvetica,Arial',
+              'Malgun Gothic',
+              '맑은고딕',
+              '맑은 고딕',
+              '돋움',
+              'Dotum',
+              sans-serif,
+      );
+    }
+
+    &:lang(en) {
+      font-family: (
+              'Avenir',
+              'Avenir Next',
+              'Helvetica',
+              'Arial',
+              'Apple SD Gothic Neo',
+              'Nanum Barun Gothic',
+              'Malgun Gothic',
+              '맑은고딕',
+              '맑은 고딕',
+              '돋움',
+              'Dotum',
+              'Noto Sans Japanese',
+              'Hiragino Kaku Gothic ProN',
+              'ヒラギノ角ゴ ProN W3',
+              'YuGothic',
+              'Yu Gothic',
+              'メイリオ',
+              sans-serif,
+      );
+    }
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
