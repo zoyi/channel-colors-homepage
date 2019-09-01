@@ -5,7 +5,7 @@ function Overview() {
     <section id="overview">
       <h1>Overview</h1>
       <p>
-        Channel-Colors is an open-sourced color scheme using <a href="https://www.channel.io">Channel.io</a>.
+        Channel-Colors is an open-sourced color scheme used by <a href="https://www.channel.io">Channel.io</a>.
       </p>
     </section>
   )
