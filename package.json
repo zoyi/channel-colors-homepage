@@ -2,6 +2,7 @@
   "name": "channel-colors-homepage",
   "version": "0.2.0",
   "private": true,
+  "homepage": "http://zoyi.github.io/channel-colors-homepage",
   "dependencies": {
     "channel-colors": "^0.2.2",
     "classnames": "^2.2.6",
@@ -13,10 +14,12 @@
     "react-scripts": "3.1.1"
   },
   "scripts": {
-    "start": "PORT=4000 react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -32,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
