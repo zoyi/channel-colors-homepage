@@ -1,0 +1,76 @@
+@import "../../../../styles/main.module";
+
+.ColorFamily {
+  width: 100%;
+
+  &:not(:first-child) {
+    margin-top: 20px;
+  }
+
+  h2 {
+    margin-top: 0.6em;
+  }
+
+  .Colors {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.Swatch {
+  $height: $color-swatch-height + ($color-swatch-padding * 2) + $color-swatch-label-height;
+
+  position: relative;
+  width: $color-swatch-width + ($color-swatch-padding * 2);
+  height: $height;
+  margin: 2px;
+  border-radius: 8px;
+  border: solid 1px transparent;
+  box-sizing: content-box;
+  transition: $border-transition;
+  cursor: pointer;
+
+  &:hover {
+    border-color: $ch-grey500;
+  }
+
+  %color-content {
+    position: absolute;
+    width: $color-swatch-width;
+    height: $color-swatch-height;
+    left: 0;
+    top: 0;
+    margin: $color-swatch-padding;
+    border-radius: 8px;
+  }
+
+  .Backer {
+    @extend %color-content;
+    background-size: 125%;
+    background-image: url('../../../../resources/images/transparency.png');
+  }
+
+  .Color {
+    @extend %color-content;
+  }
+
+  .Label {
+    @extend %color-content;
+    height: $color-swatch-label-height;
+    top: $height - $color-swatch-label-height;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0 6px 6px;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: right;
+
+    .Hex {
+      font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+      color: $ch-grey700;
+    }
+  }
+}

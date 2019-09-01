@@ -1,0 +1,40 @@
+@import '../../styles/main.module';
+
+.MenuPanel {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: $menu-panel-width;
+  padding: 20px 0;
+  background-color: $ch-grey100;
+  border-right: 1px solid $ch-grey300;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  .MenuItem {
+    display: block;
+    height: 32px;
+    padding: 0 10px;
+    line-height: 32px;
+    font-size: 1em;
+    color: $ch-grey700;
+    cursor: pointer;
+
+    &:hover {
+      color: $ch-grey700;
+      background-color: $ch-black5;
+    }
+  }
+
+  .SubMenu {
+    padding-left: 10px;
+
+    .SubMenuItem {
+      height: 24px;
+      padding: 0 10px;
+      line-height: 24px;
+      font-size: 0.8em;
+    }
+  }
+}
