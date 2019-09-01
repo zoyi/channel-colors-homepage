@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/channel-colors/static/css/main.f32df160.chunk.css",
-    "main.js": "/channel-colors/static/js/main.c7b49339.chunk.js",
-    "main.js.map": "/channel-colors/static/js/main.c7b49339.chunk.js.map",
-    "runtime~main.js": "/channel-colors/static/js/runtime~main.61cd3a45.js",
-    "runtime~main.js.map": "/channel-colors/static/js/runtime~main.61cd3a45.js.map",
-    "static/js/2.6aaf7fcd.chunk.js": "/channel-colors/static/js/2.6aaf7fcd.chunk.js",
-    "static/js/2.6aaf7fcd.chunk.js.map": "/channel-colors/static/js/2.6aaf7fcd.chunk.js.map",
-    "index.html": "/channel-colors/index.html",
-    "precache-manifest.7e43af5889648347e23d3c0c6ae4c973.js": "/channel-colors/precache-manifest.7e43af5889648347e23d3c0c6ae4c973.js",
-    "service-worker.js": "/channel-colors/service-worker.js",
-    "static/css/main.f32df160.chunk.css.map": "/channel-colors/static/css/main.f32df160.chunk.css.map"
+    "main.css": "/channel-colors-homepage/static/css/main.f32df160.chunk.css",
+    "main.js": "/channel-colors-homepage/static/js/main.946e30da.chunk.js",
+    "main.js.map": "/channel-colors-homepage/static/js/main.946e30da.chunk.js.map",
+    "runtime~main.js": "/channel-colors-homepage/static/js/runtime~main.e548b269.js",
+    "runtime~main.js.map": "/channel-colors-homepage/static/js/runtime~main.e548b269.js.map",
+    "static/js/2.6aaf7fcd.chunk.js": "/channel-colors-homepage/static/js/2.6aaf7fcd.chunk.js",
+    "static/js/2.6aaf7fcd.chunk.js.map": "/channel-colors-homepage/static/js/2.6aaf7fcd.chunk.js.map",
+    "index.html": "/channel-colors-homepage/index.html",
+    "precache-manifest.5ebd72f11a6410a396c0b49c241999d3.js": "/channel-colors-homepage/precache-manifest.5ebd72f11a6410a396c0b49c241999d3.js",
+    "service-worker.js": "/channel-colors-homepage/service-worker.js",
+    "static/css/main.f32df160.chunk.css.map": "/channel-colors-homepage/static/css/main.f32df160.chunk.css.map"
   }
 }
