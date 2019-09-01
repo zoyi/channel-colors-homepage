@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/channel-colors-homepage/precache-manifest.5ebd72f11a6410a396c0b49c241999d3.js"
+  "/channel-colors-homepage/precache-manifest.9891c1a1f25f016289eb6d324a74654e.js"
 );
 
 self.addEventListener('message', (event) => {
