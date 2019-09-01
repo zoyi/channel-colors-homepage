@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2f08ff98dacba59a3d1a163a98c0c93f",
+    "revision": "5d0a81915766f4be1c87ea2aeecbaae0",
     "url": "/channel-colors-homepage/index.html"
   },
   {
-    "revision": "d5ed8b206c6ccdb49840",
+    "revision": "f8ca2656a2ded2972935",
     "url": "/channel-colors-homepage/static/css/main.febc5978.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/channel-colors-homepage/static/js/2.6aaf7fcd.chunk.js"
   },
   {
-    "revision": "d5ed8b206c6ccdb49840",
-    "url": "/channel-colors-homepage/static/js/main.2c3f2323.chunk.js"
+    "revision": "f8ca2656a2ded2972935",
+    "url": "/channel-colors-homepage/static/js/main.dc40be07.chunk.js"
   },
   {
     "revision": "3da792c0da66b2e6cded",
