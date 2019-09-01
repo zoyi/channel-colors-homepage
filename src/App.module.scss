@@ -8,3 +8,12 @@
   overflow-x: auto;
   overflow-y: hidden;
 }
+
+@include with-mobile {
+  .App {
+    min-width: auto;
+    min-height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}

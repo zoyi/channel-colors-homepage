@@ -17,3 +17,16 @@
     }
   }
 }
+
+@include with-mobile {
+  .Content {
+    display: block;
+    position: initial;
+    width: 100%;
+
+    section {
+      padding: 40px 0;
+      margin: 0 30px;
+    }
+  }
+}
