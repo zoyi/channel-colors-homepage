@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "http://zoyi.github.io/channel-colors-homepage",
   "dependencies": {
-    "channel-colors": "^0.2.2",
+    "channel-colors": "^0.2.3",
     "classnames": "^2.2.6",
     "lodash": "^4.17.15",
     "node-sass": "^4.12.0",
