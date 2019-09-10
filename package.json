@@ -4,14 +4,17 @@
   "private": true,
   "homepage": "http://zoyi.github.io/channel-colors-homepage",
   "dependencies": {
-    "channel-colors": "^0.2.3",
+    "channel-colors": "^0.3.0",
     "classnames": "^2.2.6",
     "lodash": "^4.17.15",
     "node-sass": "^4.12.0",
     "react": "^16.9.0",
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-redux": "^7.1.1",
+    "react-scripts": "3.1.1",
+    "redux": "^4.0.4",
+    "reselect": "^4.0.0"
   },
   "scripts": {
     "start": "PORT=4000 react-scripts start",

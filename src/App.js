@@ -1,33 +1,18 @@
-import React, { useMemo } from 'react';
-import { flow, groupBy, map, sortBy, toPairs } from 'lodash/fp';
+import React from 'react';
+import { useSelector } from 'react-redux';
 
-import _defaultColors from '../node_modules/channel-colors/dist/default.colors.json';
 import { ColorContext } from './contexts';
+import themeSelector from './selectors/themeSelector';
 import MenuPanel from './components/MenuPanel';
 import Content from './components/Content';
 import styles from './App.module.scss'
 
 function App() {
-  const defaultColors = useMemo(() => flow(
-    toPairs,
-    map(([name, color]) => ({ name, ...color })),
-    sortBy(({ name }) => {
-      const regex = /[a-z]+(\d+)/;
-      if (name.match(regex)) {
-        const match = name.match(regex);
-        return Number(match[1]);
-      }
-      if (name.match(/[a-z]+/)) {
-        return Number.MAX_SAFE_INTEGER
-      }
-      return 0;
-    }),
-    groupBy('family'),
-  )(_defaultColors), []);
+  const themeColors = useSelector(themeSelector.getThemeColors);
 
   return (
     <div className={styles.App}>
-      <ColorContext.Provider value={defaultColors}>
+      <ColorContext.Provider value={themeColors}>
         <MenuPanel />
         <Content />
       </ColorContext.Provider>

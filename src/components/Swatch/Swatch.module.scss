@@ -35,6 +35,7 @@
 
   .Color {
     @extend %color-content;
+    transition: $background-transition-slow;
   }
 
   .ColorBorder {

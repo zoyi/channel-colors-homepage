@@ -1,0 +1,32 @@
+@import "../../styles/main.module";
+
+.wrapper {
+  cursor: pointer;
+  position: relative;
+
+  .content {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    background-color: $ch-white;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px 0 $ch-black15;
+    transition: transform 100ms ease-out;
+  }
+
+  &.on {
+    background-color: $ch-green400;
+
+    &:hover {
+      background-color: $ch-green500;
+    }
+  }
+
+  &.off {
+    background-color: $ch-grey300;
+
+    &:hover {
+      background-color: $ch-grey500;
+    }
+  }
+}

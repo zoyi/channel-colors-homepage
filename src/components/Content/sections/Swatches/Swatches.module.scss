@@ -1,5 +1,15 @@
 @import "../../../../styles/main.module";
 
+.ThemeToggleWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .ToggleButton {
+    margin-left: 8px;
+  }
+}
+
 .ColorFamily {
   width: 100%;
 
