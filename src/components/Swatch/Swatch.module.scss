@@ -37,6 +37,11 @@
     @extend %color-content;
   }
 
+  .ColorBorder {
+    @extend %color-content;
+    border: solid 1px $ch-grey200;
+  }
+
   .Label {
     @extend %color-content;
     height: $color-swatch-label-height;
