@@ -1,0 +1,17 @@
+@import "../../../node_modules/channel-colors/dist/default.colors.scss";
+
+%theme-dark {
+  /* texts */
+  --text-default: #{$ch-grey100};
+  --text-disabled: #{$ch-grey300};
+  --text-dim: #{$ch-grey500};
+  --text-link: #{$ch-cobalt300};
+  --text-link-hover: #{$ch-cobalt200};
+
+  /* backgrounds */
+  --background-default: #{$ch-grey900};
+  --background-dim: #{$ch-grey700};
+
+  /* borders */
+  --border-default: #{$ch-grey700};
+}

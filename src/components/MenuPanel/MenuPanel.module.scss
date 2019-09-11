@@ -7,8 +7,8 @@
   left: 0;
   width: $menu-panel-width;
   padding: 20px 0;
-  background-color: var(--grey-100);
-  border-right: 1px solid var(--grey-300);
+  background-color: var(--background-dim);
+  border-right: 1px solid var(--border-default);
   overflow-x: hidden;
   overflow-y: auto;
   transition: $theme-change-transition;
@@ -19,7 +19,7 @@
     padding: 0 10px;
     line-height: 32px;
     font-size: 1em;
-    color: var(--grey-700);
+    color: var(--text-dim) !important;
     cursor: pointer;
     transition: $theme-change-transition;
 

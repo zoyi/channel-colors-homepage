@@ -1,3 +1,4 @@
+@import url("http://static.channel.io/colors/default.colors.css");
 @import "main.module";
 
 :global {
@@ -5,12 +6,20 @@
     height: 100vh;
   }
 
+  html {
+    @extend %theme-default;
+
+    &[data-theme='dark'] {
+      @extend %theme-dark;
+    }
+  }
+
   html, body {
     height: 100%;
     overflow: hidden;
     margin: 0;
     padding: 0;
-    color: var(--grey-900);
+    color: var(--text-default);
   }
 
   body {
@@ -120,10 +129,10 @@
 
   a, a:hover, a:link {
     text-decoration: none;
-    color: var(--cobalt-400);
+    color: var(--text-link);
 
     &:hover {
-      color: var(--cobalt-500);
+      color: var(--text-link-hover);
     }
   }
 

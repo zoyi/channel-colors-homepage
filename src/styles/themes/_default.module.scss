@@ -1,0 +1,29 @@
+@import "../../../node_modules/channel-colors/dist/default.colors.scss";
+
+%theme-default {
+  /* defaults */
+  --blue-default: #{$ch-blue400};
+  --cobalt-default: #{$ch-cobalt400};
+  --green-default: #{$ch-green400};
+  --olive-default: #{$ch-olive400};
+  --yellow-default: #{$ch-yellow400};
+  --orange-default: #{$ch-orange400};
+  --red-default: #{$ch-red400};
+  --pink-default: #{$ch-pink400};
+  --purple-default: #{$ch-purple400};
+  --navy-default: #{$ch-navy400};
+
+  /* texts */
+  --text-default: #{$ch-grey900};
+  --text-disabled: #{$ch-grey300};
+  --text-dim: #{$ch-grey700};
+  --text-link: #{$ch-cobalt400};
+  --text-link-hover: #{$ch-cobalt500};
+
+  /* backgrounds */
+  --background-default: #{$ch-white};
+  --background-dim: #{$ch-grey100};
+
+  /* borders */
+  --border-default: #{$ch-grey300};
+}
