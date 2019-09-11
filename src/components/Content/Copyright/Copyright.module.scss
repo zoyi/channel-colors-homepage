@@ -1,0 +1,9 @@
+@import "../../../styles/main.module";
+
+.Copyright {
+  margin: 0 !important;
+  padding: 50px !important;
+  background-color: var(--background-dim);
+  border-top: solid 1px var(--border-default);
+  color: var(--text-dim);
+}

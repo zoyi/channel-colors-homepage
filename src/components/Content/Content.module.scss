@@ -10,12 +10,14 @@
   background-color: var(--background-default);
   transition: $theme-change-transition;
 
-  section {
-    padding: 100px 0;
-    margin: 0 60px;
+  .Sections {
+    section {
+      padding: 100px 0;
+      margin: 0 60px;
 
-    &:not(:first-child) {
-      border-top: solid 1px var(--border-default);
+      &:not(:first-child) {
+        border-top: solid 1px var(--border-default);
+      }
     }
   }
 }
@@ -26,9 +28,11 @@
     position: initial;
     width: 100%;
 
-    section {
-      padding: 40px 0;
-      margin: 0 30px;
+    .Sections {
+      section {
+        padding: 40px 0;
+        margin: 0 30px;
+      }
     }
   }
 }
