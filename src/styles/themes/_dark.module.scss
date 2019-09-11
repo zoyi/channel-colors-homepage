@@ -1,6 +1,18 @@
 @import "../../../node_modules/channel-colors/dist/default.colors.scss";
 
 %theme-dark {
+  /* defaults */
+  --blue-default: #{$ch-blue300};
+  --cobalt-default: #{$ch-cobalt300};
+  --green-default: #{$ch-green300};
+  --olive-default: #{$ch-olive300};
+  --yellow-default: #{$ch-yellow300};
+  --orange-default: #{$ch-orange300};
+  --red-default: #{$ch-red300};
+  --pink-default: #{$ch-pink300};
+  --purple-default: #{$ch-purple300};
+  --navy-default: #{$ch-navy300};
+
   /* texts */
   --text-default: #{$ch-grey100};
   --text-disabled: #{$ch-grey300};
