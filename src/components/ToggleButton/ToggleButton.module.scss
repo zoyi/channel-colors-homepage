@@ -8,25 +8,25 @@
     position: absolute;
     left: 2px;
     top: 2px;
-    background-color: $ch-white;
+    background-color: var(--white);
     border-radius: 50%;
-    box-shadow: 0 2px 4px 0 $ch-black15;
-    transition: transform 100ms ease-out;
+    box-shadow: 0 2px 4px 0 var(--black-15);
+    transition: transform 100ms ease-out, $theme-change-transition;
   }
 
   &.on {
-    background-color: $ch-green400;
+    background-color: var(--green-400);
 
     &:hover {
-      background-color: $ch-green500;
+      background-color: var(--green-500);
     }
   }
 
   &.off {
-    background-color: $ch-grey300;
+    background-color: var(--grey-300);
 
     &:hover {
-      background-color: $ch-grey500;
+      background-color: var(--grey-500);
     }
   }
 }

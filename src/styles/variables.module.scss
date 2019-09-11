@@ -10,4 +10,8 @@ $color-swatch-label-height: 38px;
 $color-swatch-label-width: 120px;
 
 $border-transition: border-color .15s ease-in-out;
+$border-transition-slow: border-color .2s ease-in-out;
 $background-transition-slow: background-color .2s ease-in-out;
+$color-transition-slow: color .2s ease-in-out;
+
+$theme-change-transition: $border-transition-slow, $background-transition-slow, $color-transition-slow;

@@ -14,7 +14,7 @@
   cursor: pointer;
 
   &:hover {
-    border-color: $ch-grey500;
+    border-color: var(--grey-500);
   }
 
   %color-content {
@@ -35,12 +35,12 @@
 
   .Color {
     @extend %color-content;
-    transition: $background-transition-slow;
+    transition: $theme-change-transition;
   }
 
   .ColorBorder {
     @extend %color-content;
-    border: solid 1px $ch-grey200;
+    border: solid 1px var(--grey-200);
   }
 
   .Label {
@@ -58,7 +58,7 @@
 
     .Hex {
       font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-      color: $ch-grey700;
+      color: var(--grey-700);
     }
   }
 }

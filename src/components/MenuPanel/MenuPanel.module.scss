@@ -7,10 +7,11 @@
   left: 0;
   width: $menu-panel-width;
   padding: 20px 0;
-  background-color: $ch-grey100;
-  border-right: 1px solid $ch-grey300;
+  background-color: var(--grey-100);
+  border-right: 1px solid var(--grey-300);
   overflow-x: hidden;
   overflow-y: auto;
+  transition: $theme-change-transition;
 
   .MenuItem {
     display: block;
@@ -18,12 +19,12 @@
     padding: 0 10px;
     line-height: 32px;
     font-size: 1em;
-    color: $ch-grey700;
+    color: var(--grey-700);
     cursor: pointer;
+    transition: $theme-change-transition;
 
     &:hover {
-      color: $ch-grey700;
-      background-color: $ch-black5;
+      background-color: var(--black-5);
     }
   }
 

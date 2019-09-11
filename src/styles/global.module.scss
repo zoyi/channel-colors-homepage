@@ -10,7 +10,7 @@
     overflow: hidden;
     margin: 0;
     padding: 0;
-    color: $ch-grey900;
+    color: var(--grey-900);
   }
 
   body {
@@ -120,6 +120,11 @@
 
   a, a:hover, a:link {
     text-decoration: none;
+    color: var(--cobalt-400);
+
+    &:hover {
+      color: var(--cobalt-500);
+    }
   }
 
   @include with-mobile {
