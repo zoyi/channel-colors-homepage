@@ -120,7 +120,15 @@
   }
 
   code {
+    display: block;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: var(--background-dim);
+    border-radius: 6px;
+    white-space: pre;
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-size: 0.85em;
+    color: var(--text-default);
   }
 
   * {
