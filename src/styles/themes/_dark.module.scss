@@ -13,9 +13,22 @@
   --purple-default: #{$ch-purple300};
   --navy-default: #{$ch-navy300};
 
+  /* hovers */
+  --blue-hover: #{$ch-blue400};
+  --cobalt-hover: #{$ch-cobalt400};
+  --green-hover: #{$ch-green400};
+  --olive-hover: #{$ch-olive400};
+  --yellow-hover: #{$ch-yellow400};
+  --orange-hover: #{$ch-orange400};
+  --red-hover: #{$ch-red400};
+  --pink-hover: #{$ch-pink400};
+  --purple-hover: #{$ch-purple400};
+  --navy-hover: #{$ch-navy400};
+
   /* texts */
   --text-default: #{$ch-grey100};
   --text-disabled: #{$ch-grey300};
+  --text-caption: #{$ch-grey500};
   --text-dim: #{$ch-grey500};
   --text-link: #{$ch-cobalt300};
   --text-link-hover: #{$ch-cobalt200};
@@ -23,6 +36,7 @@
   /* backgrounds */
   --background-default: #{$ch-grey900};
   --background-dim: #{$ch-grey700};
+  --background-dim-darken: #{$ch-grey500};
 
   /* borders */
   --border-default: #{$ch-grey700};
